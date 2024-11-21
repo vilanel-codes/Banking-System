@@ -42,15 +42,17 @@ A C++ compiler (e.g., GCC or Clang).
 (Optional) Git for cloning the repository.
 Steps to Compile and Run
 Clone the repository:
-
+```plaintext
 git clone https://github.com/your-username/banking-system.git
 cd banking-system
+```
 
 - Compile the program:
-
+```plaintext
 g++ -o bank_app main.cpp BaseAccount.cpp SavingsAccount.cpp CurrentAccount.cpp Bank.cpp
-
+```
 - Run the executable:
-
+```plaintext
 ./bank_app  # On Linux/macOS
 bank_app    # On Windows
+```
